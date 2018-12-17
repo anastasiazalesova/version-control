@@ -1,0 +1,119 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    height: 100vh;
+}
+
+.Nav-Layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 16px 24px;
+    background: #eee;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.Nav-Layout a h3 {
+    color: #000;
+}
+
+.Nav-Layout-Actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Avatar {
+    margin-left: 100px;
+}
+
+.Avatar img {
+    border-radius: 24px;
+}
+
+.Content-Layout {
+    margin-top: 64px;
+    overflow: auto;
+    padding: 78px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Content-Layout input, textarea {
+    border: none !important;
+}
+.Content-Layout input {
+    padding-left: 0;
+    height: 100px;
+    font-size: 56px !important;
+}
+
+.Content-Layout textarea {
+    padding-left: 0;
+    resize: none;
+    font-size: 24px !important;
+}
+
+
+.Content-Layout .el-input ::-webkit-input-placeholder {
+    font-size: 56px;
+}
+
+.Card {
+    cursor: pointer;
+    display: flex;
+    width: 340px;
+    height: 440px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Card:hover {
+    background: #0075ff;
+}
+
+.Card-Title {
+    color: #000;
+}
+
+.Card-Content {
+    font-size: 14px;
+    color: #757575;
+    margin-top: 12px;
+}
+
+.Card:hover .Card-Title {
+    color: #fff;
+}
+
+.Card:hover .Card-Content {
+    color: #fff;
+
+}
+
+.Card-Actions {
+    display: flex;
+}
+
+.Card-Actions .el-button--primary {
+    margin-right: 16px;
+}
