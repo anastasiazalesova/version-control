@@ -1,5 +1,3 @@
 # version-control
 
-> npm install
-
-> npm start
+> npm i && npm start
